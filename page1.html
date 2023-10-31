@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Page 1</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+      function commit(){
+        var commit =
+          document.getElementById("commit").value;
+          alert("You commited this: "+commit);
+      }
+    </script>
+  </head>
+
+<body>
+    <header>
+      <img src="/ProjectFolderBannerImage.jpeg ">
+    </header>
+  
+    <nav>
+      <ul>
+        <li><a href="index.html">Home </a></li>
+        <li><a href="page1.html">Page 1 </a></li>
+        <li><a href="page2.html">Page 2 </a></li>
+        <li><a href="https://www.columbusstate.edu/">CSU's Main Page </a></li>
+      </ul>
+    </nav>
+  
+    <main>
+      <ol type ="I">
+        <li>Concept I</li>
+        <ol type="i">
+          <li id="style">Point I</li>
+          <li>Point II</li>
+          <li id="style">Point III</li>
+        </ol>
+        <li>Concept I</li>
+        <ol> type="i">
+          <li id="the">Point I</li>
+          <li>Point II</li>
+          <li id="the">Point III</li>
+        </ol>
+        <li>Concept I</li>
+        <ol> type="i">
+          <li id="background">Point I</li>
+          <li>Point II</li>
+          <li id="background">Point III</li>
+        </ol>
+      </ol><Br/>
+      <form>
+        <input type="text" id="commit" name="commit" placeholder="Enter your commit message" required>
+      </form>
+      <Br/>
+        <button onclick="commit()">Version Control Button</button>
+      <Br/>
+      
+    
+  
+     
+
+    </main>
+  
+  
+    <footer>
+      <h3>Contact: 706-662-1233</h3>
+      <h3>Name: Eboni Williams</h3>
+      <p>Kreative Web Designs</p>
+    </footer>
+</body>
+
+</html>

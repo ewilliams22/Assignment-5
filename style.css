@@ -1,0 +1,72 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  display: grid;
+  grid-template-areas: "one one one one"
+                       "two two three three"
+                       "two two three three"
+                       "four four four four";
+  padding: 10px;
+  gap: 10px;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+header{grid-area: one;}
+nav{grid-area: two;}
+main{grid-area: three;}
+footer{grid-area: four;}
+
+header{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+  background-color: green;
+  font-family: "Times New Roman", Times, serif;
+}
+main{
+  background-color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+  background-color: yellow;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 1em Barlow, Helvetica, Arial, cursive;
+}
+
+h1{
+  color: green;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+p{
+  color: orange;
+  font-family: "Times New Roman", Times, serif;
+}
+img{
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+  color: yellow;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 1em Barlow, Helvetica, Arial, cursive;
+}
+li{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{
+  color: purple;
+  font-family: "Times New Roman", Times, serif;
+}
+th{
+  color: white;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+td{
+  color: pink;
+  font-size: 1.5em;
+  font-family: "Times New Roman", Times, serif;
+}
